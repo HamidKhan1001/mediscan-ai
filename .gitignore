@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node
+node_modules/
+dist/
+.env.local
+
+# Docker
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# ML models (too large for git — use W&B or HuggingFace Hub)
+*.pth
+*.pt
+*.h5
+*.safetensors
+
+# macOS
+.DS_Store
+
+# Secrets
+*.pem
+*.key
+service-account.json

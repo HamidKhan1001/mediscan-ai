@@ -1,0 +1,53 @@
+# MediScan AI — Backend Dependencies
+
+# Web framework
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+pydantic==2.6.1
+pydantic-settings==2.2.1
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# AI / ML — Vision
+torch==2.2.0
+torchvision==0.17.0
+torchxrayvision==1.0.1
+opencv-python-headless==4.9.0.80
+Pillow==10.2.0
+numpy==1.26.4
+
+# AI / ML — NLP
+transformers==4.38.1
+accelerate==0.27.2
+
+# Experiment tracking
+wandb==0.16.3
+
+# Cloud — Azure
+azure-storage-blob==12.19.0
+azure-keyvault-secrets==4.7.0
+azure-identity==1.15.0
+
+# Cloud — GCP
+google-cloud-storage==2.14.0
+google-cloud-logging==3.9.0
+
+# FHIR
+fhir.resources==7.1.0
+
+# Testing
+pytest==8.0.2
+pytest-asyncio==0.23.5
+pytest-cov==4.1.0
+httpx==0.27.0
+
+# Code quality
+flake8==7.0.0
+black==24.2.0
+isort==5.13.2
+
+# Load testing
+locust==2.24.0
